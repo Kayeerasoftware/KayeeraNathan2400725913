@@ -1,4 +1,4 @@
-print("=" * 60)
+print("\n" + "=" * 60)
 print("        NATHAN ONLINE SHOP - ONLINE STORE")
 print("=" * 60)
 
@@ -149,6 +149,7 @@ if logged_in:
         print("-" * 60)
         print(f"FINAL PRICE    : UGX {final_price:,.0f}")
         print("=" * 60)
+        print()
 
     else:
         print("Invalid product selection!")
