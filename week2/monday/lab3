@@ -1,0 +1,14 @@
+def display_student_information(name, age, course, student_number):
+    print("\nStudent Information")
+    print("-------------------")
+    print("Name:", name)
+    print("Age:", age)
+    print("Course:", course)
+    print("Student Number:", student_number)
+
+name = input("Enter student name: ")
+age = int(input("Enter age: "))
+course = input("Enter course: ")
+student_number = input("Enter student number: ")
+
+display_student_information(name, age, course, student_number)

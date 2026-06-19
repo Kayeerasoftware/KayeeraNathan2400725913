@@ -1,0 +1,12 @@
+add(2.0, 4.0) = 6.0
+2026-06-19 10:11:51.757930 | wrapper | 5.0 , 3.0 = 1.6666666666666667
+2026-06-19 10:12:19.410474 | wrapper | 6.0 , 0.0 = Infinity
+add | Inputs: (2.0, 3.0) | Result: 5.0
+add | Inputs: (1.0, 4.0) | Result: 5.0
+divide | Inputs: (7.0, 0.0) | Result: Infinity
+wrapper | Inputs: (7.0, 0.0) | Result: Infinity
+multiply | Inputs: (5.0, 7.0) | Result: 35.0
+add | Inputs: (4.0, 6.0) | Result: 10.0
+divide | Inputs: (5.0, 0.0) | Result: Infinity
+wrapper | Inputs: (5.0, 0.0) | Result: Infinity
+add | Inputs: (3.0, 1.0) | Result: 4.0
