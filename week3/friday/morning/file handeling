@@ -1,0 +1,40 @@
+'''
+mode         meaning
+'r'          read
+'w'          write
+'a'          append
+'x'          create
+
+'''
+
+# file =open("student.txt", "r")
+
+# content = file.read()
+
+# print(content)
+
+
+
+
+# with open("student.txt", "r") as file:
+#     data = file.read()
+#     print(data)
+
+
+#read line by line
+# with open("student.txt", "r") as file:
+#     #Read line at a time
+#     for line in file:
+#         print(line.strip())
+
+# with open("report.txt", "w") as file:
+#     file.write("I love Python programming\n")
+#     file.write("I am becoming a data scientist")
+
+# print("File created successfully.")
+
+
+with open("report.txt", "a") as file:
+    file.write("\nEvery data scientist must love Python.")
+
+print("Text appended successfully.")
