@@ -37,4 +37,3 @@ mode         meaning
 with open("report.txt", "a") as file:
     file.write("\nEvery data scientist must love Python.")
 
-print("Text appended successfully.")

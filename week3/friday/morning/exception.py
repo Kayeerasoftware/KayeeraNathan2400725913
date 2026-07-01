@@ -15,14 +15,24 @@ devision by zero
 # except ValueError:
 #     print("invalid number entered.")
 
+# try:
+#     file =open("student.json")
+#     print("file missing")
+
+# except FileNotFoundError:
+#     print("file found")
+
+# finally:
+#     print("finished opening")
+
+
+#ATM Withdraw
+
+class InsufficientBalance(Exception):
+    pass
+balance =2000000
+withdraw = int(input("Amount: "))
+
 try:
-    file =open("student.json")
-    print("file missing")
-
-except FileNotFoundError:
-    print("file found")
-
-finally:
-    print("finished opening")
-
-
+    if withdraw>balance:
+        print
